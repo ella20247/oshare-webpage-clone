@@ -1,0 +1,110 @@
+.nav-link{
+    list-style: none;
+    float:left;
+    text-align: center;
+    display: block;
+    padding: 0 10px;
+    border-right: solid 2px #e3e3e3;
+}
+
+#oshare-logo {
+    width: 120px;
+    max-width: 100%;
+}
+
+#oshare-menu-wrap{
+    display: flex;
+    top: 6px;
+    
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.desktop{
+    display: flex;
+    justify-content: space-between;
+}
+#user-menu{
+    padding-top: 10px;
+}
+#welcome{
+    text-align: right;
+    font-size: 0.8rem;
+    color: gray;
+}
+.user-menu-btn{
+    padding: 3px 5px;
+    margin-left: 5px;
+    font-size: 0.8rem;
+    color: gray;
+    background-color: #f6f6f6;
+    border: 1px solid #d9d9d9;
+}
+.desktop{
+    padding-bottom: 5px;
+}
+.md-pick-icon{
+border-radius: 5px;
+margin-left: 5px;
+width: 85px;
+height:30px;
+background-color:rgb(72, 180, 223);
+display: flex;
+justify-content: center;
+transform: translateY(30px);
+align-items: center;
+}
+#recommend-info{
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.7);
+    transform: translateY(-100px);
+}
+
+#recommend-title{
+    display: block;
+    font-size: 0.7rem;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.recommend-images li img{
+    width: 300px; height: 250px;
+}
+
+.recommend-price{
+    display: block;
+    font-size: larger;
+    position: absolute;
+    top: 60px;
+    left: 140px;  
+    font-size: 1rem;  
+}
+.recommend-images {
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+}
+.recommend-images li{
+    padding-right: 20px;
+    padding-top: 30px;
+    height: 350px;
+}
+#recommendation-list{
+    background-color: rgba(232, 223, 218, 1);
+    position: relative;
+    bottom: 15px;
+    height: 380px;
+}
+.img-wrapper img{
+    width: 65px;
+    height: 65px;
+}
+.img-wrapper {
+    width: 85px;
+    height: 65px;
+    background-color: aqua;
+}
